@@ -6,10 +6,10 @@ class GameMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey[900],
+      backgroundColor: const Color.fromARGB(255, 0, 170, 255),
       appBar: AppBar(
         title: const Text('Selecciona un deporte'),
-        backgroundColor: Colors.blueGrey[800],
+        backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       ),
       body: Center(
         child: Column(
